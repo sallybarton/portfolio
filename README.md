@@ -9,17 +9,17 @@ The navigation is for a home page and 3 flat content pages: Process, About and C
 
 The home page has 4 tiles that navigate to pages not on the main navigation. In an attempt making keeping my portfolio up-to-date I have structured it such that the tile images and pages are named generically to indicate their position in the 2x2:
 
-`-------------------------------------------------`
-`| Top Left              | Top Right             |`
-`| /images/tile_tl.svg   | /images/tile_tr.svg   |`
-`| featured_tl.php       | featured_tr.php       |`
-`|                       |                       |`
-`-------------------------------------------------`
-`| Bottom Left           | Bottom Right          |`
-`| /images/tile_tl.svg   | /images/tile_tr.svg   |`
-`| featured_tl.php       | featured_tr.php       |`
-`|                       |                       |`
-`-------------------------------------------------`
+`-------------------------------------------------  `
+`| Top Left              | Top Right             |  `
+`| /images/tile_tl.svg   | /images/tile_tr.svg   |  `
+`| featured_tl.php       | featured_tr.php       |  `
+`|                       |                       |  `
+`-------------------------------------------------  `
+`| Bottom Left           | Bottom Right          |  `
+`| /images/tile_tl.svg   | /images/tile_tr.svg   |  `
+`| featured_tl.php       | featured_tr.php       |  `
+`|                       |                       |  `
+`-------------------------------------------------  `
 
 When updating a featured project, the page currently titled "featured_*.php" can be renamed to something logical for the project it describes and put in the /portfolio directory. The PHP include for the footer of that file should be updated to "/inc_footBack.html" and the "tile_*" image put in the /portfolio/images directory, replacing "*" to match the new project file name. You can then update the /portfolio/index.php to add the new tile as appropriate. The portfolio directory page is not available from the main navigation but can be found at: yourURL.com/porfolio, useful if you want to send out a complete list of your work or if - mid-presentation - it is relevant to show a project that isn't currently featured.
 
