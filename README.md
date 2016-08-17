@@ -1,6 +1,5 @@
 # PORTFOLIO
-A simple, responsive portfolio website designed to make content updates and playing with color platettes easy. You can see the end result here:
-http://brightumbrella.com
+A simple, responsive portfolio website designed to make content updates and playing with color platettes easy. You can see the end result here: http://brightumbrella.com
 
 The navigation is for a home page and 3 flat content pages: Process, About and Contact. 
 
